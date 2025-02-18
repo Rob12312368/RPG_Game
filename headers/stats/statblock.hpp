@@ -2,26 +2,12 @@
 #include "stattypes.hpp"
 class StatBlock{
 public:
-    StatBlock(){
-        strength = (stattype)1u;
-        intellect = (stattype)1u;
-    }
-    explicit StatBlock(stattype s, stattype i){
-        strength = s;
-        intellect = i;
-    }
-    stattype getStrength(){
-        return strength;
-    }
-    void setStrength(stattype newStrength){
-        strength = newStrength;
-    }
-    stattype getIntellect(){
-        return intellect;
-    }
-    void setIntellect(stattype newIntellect){
-        intellect = newIntellect;
-    }
+    StatBlock();
+    explicit StatBlock(stattype s, stattype i);
+    stattype getStrength();
+    void setStrength(stattype newStrength);
+    stattype getIntellect();
+    void setIntellect(stattype newIntellect);
 private:
     stattype strength;
     stattype intellect;
