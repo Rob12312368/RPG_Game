@@ -1,0 +1,28 @@
+# Ignore build directories
+/build/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+Makefile2
+
+# Ignore compiled binary files
+/bin/
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Ignore object files
+*.o
+*.obj
+*.d
+
+# Ignore CLion & VSCode config files
+.idea/
+.vscode/
+CMakeLists.txt.user
